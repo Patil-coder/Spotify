@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Boogaloo&family=Dancing+Script&family=Roboto:ital,wght@0,400;1,100&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Boogaloo&family=Dancing+Script&family=Roboto:ital,wght@0,400;1,100&family=Ubuntu&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'ubuntu',sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+nav ul .int{
+    display: flex;
+    padding:20px 12px;
+    margin-left: 80px;
+    justify-content:center;
+}
+li{
+    margin-left: 1rem;
+}
+
+.brand img{
+    width: 60px;
+    padding: 0 6px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    width: 60px;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Verdanaround', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 20px;
+    background-image: url('girl2.jpg');
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.icons{
+    margin-top: 15px;
+}
+.icons{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 30vw;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin:30px 0 ;
+}
+
+.songItem{
+    height: 70px;
+    display: flex;
+    background-color: white;
+
+    color: black;
+    margin: 12px 0;
+    justify-content:space-between;
+    align-items: center;
+border-radius: 30px;
+}
+.songItem img{
+    width: 40px;
+    margin: 0 11px;
+}
+.timespan{
+    margin: 0 20px;
+}
+.timespan i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Verdanaround', sans-serif;
+}
+.songInfo img{
+    opacity: 1;
+    transition: opacity 0.2s ease-in;
+}
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: rgb(121, 12, 21);
+    }
+  }
